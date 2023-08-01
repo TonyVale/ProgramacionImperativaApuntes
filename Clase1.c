@@ -2,6 +2,7 @@
 //librerías
 
 #include <stdio.h>
+#include "Clase1Lib.h"
 
 //Function Examples
 //Functions before main. If main is first, the function will by defined as "int function (int a )" so i will have warning and lost data if the original function isn´t like that. 
