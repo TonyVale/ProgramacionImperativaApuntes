@@ -1,0 +1,3 @@
+int libFunc(int a);
+
+
