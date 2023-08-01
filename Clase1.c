@@ -16,8 +16,10 @@ int intFunction(int a){
 //main function
 
 int main(void){
+
+  int a =  intFunction(2)
   
-  printf("HelloWorld");
+  printf("HelloWorld %d \n", a );
   return 0;
 }
 
