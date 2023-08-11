@@ -28,5 +28,5 @@ int main(){
   printf("var3: %x\n", var3);
   printf("var4: %x\n", var4);
   
-  return 0
+  return 0;
 }
