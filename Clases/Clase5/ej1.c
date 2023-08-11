@@ -22,11 +22,11 @@ int main(){
 
   //show in console
   
-  printf("var: %b\n", var);
-  printf("var1: %b\n", var1);
-  printf("var2: %b\n", var2);
-  printf("var3: %b\n", var3);
-  printf("var4: %b\n", var4);
+  printf("var: %x\n", var);
+  printf("var1: %x\n", var1);
+  printf("var2: %x\n", var2);
+  printf("var3: %x\n", var3);
+  printf("var4: %x\n", var4);
   
   return 0
 }
