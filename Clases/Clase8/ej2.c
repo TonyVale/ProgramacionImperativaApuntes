@@ -11,7 +11,7 @@ int main(void){
     
     int entero = num;
     num -= entero;
-    num+10;
+    num+=10;
     aux = (int)num;
     suma += aux;
     
