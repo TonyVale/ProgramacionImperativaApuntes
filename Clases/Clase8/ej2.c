@@ -15,5 +15,5 @@ int main(void){
     aux = (int)num;
     suma += aux;
     
-  }while("%d \n", suma)
+  }while("%d \n", suma);
 }
