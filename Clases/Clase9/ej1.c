@@ -1,5 +1,5 @@
 #include <stdio.h>
-#inlcude <ctype.h>
+#include <ctype.h>
 
 int main(){
 
