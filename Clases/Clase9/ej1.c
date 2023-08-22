@@ -10,4 +10,6 @@ int main(){
       printf("%c", toupper(aux));
     } 
   }
+
+  return 0;
 }
