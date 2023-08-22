@@ -6,11 +6,10 @@ int main(){
   int aux;
  
   
-  while(  (aux = getchar()) != EOF ){
+  while(  (aux = getchar()) != '\n' ){
     if(! isspace(aux) ){
       putchar(toupper(aux));
     } 
-    aux = getchar();
   }
 
   return 0;
