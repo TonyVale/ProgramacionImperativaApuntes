@@ -5,7 +5,7 @@ int main(){
 
   int aux;
 
-  while( (aux=getchar()) != -1 ){
+  while( (aux=getchar()) != EOF ){
     if(! isspace(aux) ){
       putchar(toupper(aux));
     } 
