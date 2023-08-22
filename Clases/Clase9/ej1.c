@@ -7,7 +7,7 @@ int main(){
 
   while( (aux=getchar()) != EOF ){
     if(! isspace(aux) ){
-      printf("%c", toupper(aux));
+      printf("%c \n", toupper(aux));
     } 
   }
 
