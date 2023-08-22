@@ -11,6 +11,6 @@ int main(){
       putchar(toupper(aux));
     } 
   }
-
+  putchar("\n");
   return 0;
 }
