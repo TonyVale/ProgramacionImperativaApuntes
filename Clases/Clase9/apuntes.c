@@ -13,6 +13,9 @@
 //Data types check librery
 #include <ctype.h>
 
+//Testing
+#include <assert.h>
+
 //int getchar(void)
 //int perror(const char * s); Imprime mensajes de error en consola 
 
