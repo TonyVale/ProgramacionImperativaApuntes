@@ -47,7 +47,6 @@ int sumDiv(int n){
   while(aux < n){
     if(!(n%aux)){
       cont += aux;
-      printf("%d \n", cont);
     }
     ++aux;
   }
