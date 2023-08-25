@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include "./random/random/random.h"
 
+#define DELTA 'A' - 'a';
+
 char randLetra(void);
 int read(char);
 
@@ -21,14 +23,14 @@ int main(){
 }
 
 char randLetra(void){
-  return(randInt(0, 25) + 'A');
+  return(randInt('A', 'Z'));
 }
 
 int read(char c){
   int cont = 0;
   char aux;
   while ((aux = getchar()) != '\n'){
-    if ( aux == c || aux == c + 32)
+    if ( aux == c || aux == c + )
       ++cont;
   }
   return cont;
