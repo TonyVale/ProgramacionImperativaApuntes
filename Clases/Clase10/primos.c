@@ -11,10 +11,21 @@ int esPrimo(int num){
     rta = !rta;
   int div = 2;
   
-  while (div <= sqrt(num) && rta){
+  while (div**2 <= num && rta){
     if(num%div == 0)
       rta = !rta;
     div++;
     }
     return rta;
+}
+
+int nPrimos(int n){
+  int aux = 2;
+  
+  while(n =! 0){
+    if(esPrimo(aux)){
+      printf("%d", aux);
+      --n;
+    }
+  }
 }
