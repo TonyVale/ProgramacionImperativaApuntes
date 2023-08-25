@@ -48,5 +48,6 @@ int sumDiv(int n){
     }
     ++aux;
   }
+  printf("%d", cont);
   return cont;
 }
