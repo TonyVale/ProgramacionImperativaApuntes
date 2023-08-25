@@ -26,7 +26,8 @@ char randLetra(void){
 
 int read(char c){
   int cont = 0;
-  while ((char aux = getchar()) != EOF){
+  char aux;
+  while ((aux = getchar()) != EOF){
     if ( aux == c)
       ++cont;
   }
