@@ -34,9 +34,7 @@ int nPrimos(int n){
 }
 
 int numerosAmigos(int a, int b){
-  if(sumDiv(a) == sumDiv(b))
-    return 1;
-  return 0;
+    return sumDiv(a) == sumDiv(b);
 }
 
 int sumDiv(int n){
