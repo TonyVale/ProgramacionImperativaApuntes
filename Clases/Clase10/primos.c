@@ -1,6 +1,8 @@
 #include <stdio.h>
 #define ES 1
 
+int sumDivisores(int);
+
 int esPrimo(int num){
   
   if(num < 0)
@@ -28,4 +30,24 @@ int nPrimos(int n){
       --n;
     }
   }
+  return 0;
+}
+
+int numAmigos(int a, int b){
+  if(sumDiv(a) == sumDiv(b))
+    return 1;
+  return 0;
+}
+
+int sumDiv(int n){
+  
+  int aux = 1;
+  int cont = 0;
+  
+  while(aux < n){
+    if( !(aux%n) )
+      cont += aux;
+    ++aux;
+  }
+  return cont;
 }
