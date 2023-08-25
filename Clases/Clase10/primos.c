@@ -33,7 +33,7 @@ int nPrimos(int n){
   return 0;
 }
 
-int numAmigos(int a, int b){
+int numerosAmigos(int a, int b){
   if(sumDiv(a) == sumDiv(b))
     return 1;
   return 0;
