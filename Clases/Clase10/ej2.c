@@ -5,7 +5,7 @@ char randLetra(void);
 
 int main(){
   randomize();
-  printf("%c %d", randLetra() , randInt(1 , 256));
+  printf("%c %d", 'A' + 26 , randInt(1 , 256));
   return 0;
 }
 
