@@ -2,7 +2,7 @@
 #include "./random/random/random.h"
 
 char randLetra(void);
-int read(char)
+int read(char);
 
 int main(){
   randomize();
