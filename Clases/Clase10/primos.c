@@ -45,10 +45,11 @@ int sumDiv(int n){
   int cont = 0;
   
   while(aux < n){
-    if( !(aux%n) )
+    if(!(aux%n)){
       cont += aux;
+      printf("%d \n", cont);
+    }
     ++aux;
   }
-  printf("%d \n", cont);
   return cont;
 }
