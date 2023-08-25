@@ -5,10 +5,10 @@ char randLetra(void);
 
 int main(){
   randomize();
-  printf("%c %d", 'A' + 26 , randInt(1 , 256));
+  printf("%c %d", randLetra(), randInt(1 , 256));
   return 0;
 }
 
 char randLetra(void){
-  return(randInt(0, 26) + 'A');
+  return(randInt(0, 25) + 'A');
 }
