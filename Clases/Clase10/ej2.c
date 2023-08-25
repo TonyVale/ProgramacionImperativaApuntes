@@ -28,7 +28,7 @@ int read(char c){
   int cont = 0;
   char aux;
   while ((aux = getchar()) != '\n'){
-    if ( aux == c)
+    if ( aux == c || aux == c + 32)
       ++cont;
   }
   return cont;
