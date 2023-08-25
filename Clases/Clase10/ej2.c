@@ -10,5 +10,5 @@ int main(){
 }
 
 char randLetra(void){
-  return(randInt(0, 27) + 'A');
+  return(randInt(0, 26) + 'A');
 }
