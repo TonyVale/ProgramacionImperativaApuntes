@@ -1,7 +1,7 @@
 #include <stdio.h>
 #define ES 1
 
-int sumDivisores(int);
+int sumDiv(int);
 
 int esPrimo(int num){
   
@@ -13,7 +13,7 @@ int esPrimo(int num){
     rta = !rta;
   int div = 2;
   
-  while (div**2 <= num && rta){
+  while (div*div <= num && rta){
     if(num%div == 0)
       rta = !rta;
     div++;
