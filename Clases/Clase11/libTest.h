@@ -1,0 +1,1 @@
+void HelloLib(void);
