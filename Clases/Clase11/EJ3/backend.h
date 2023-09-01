@@ -1,0 +1,1 @@
+int intersección( const int arr1[], const int arr2[], const int ret[], int dimi, int dimj); 
