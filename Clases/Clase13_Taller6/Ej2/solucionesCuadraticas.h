@@ -1,0 +1,1 @@
+int solucionesCuadraticas(int a , int b , int c , float *r1 , float *r2);
