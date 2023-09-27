@@ -8,7 +8,6 @@ int main(){
     int ret = delNotLet(str);
 
     printf('%d', ret);
-    printf('%s', str);
 
     return 0;
 }
